@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 class Formulario extends Component {
   state = {
-    categoria: "",
+    categoria: "general",
   };
 
   componentDidMount() {

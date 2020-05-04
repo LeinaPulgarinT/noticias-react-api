@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   _consultarNoticias = async (categoria = "general") => {
-    const url = `http://newsapi.org/v2/top-headlines?country=co&category=${categoria}&apiKey=d3e3c23a83f14ca9b5907f1cb8a78438`;
+    const url = `https://newsapi.org/v2/top-headlines?country=co&category=${categoria}&apiKey=d3e3c23a83f14ca9b5907f1cb8a78438`;
     const dataRequest = {
       method: "GET",
     };
